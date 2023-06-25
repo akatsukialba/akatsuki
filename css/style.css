@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  line-height: 1.7;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+p {
+  margin-top: 0;
+}
+
+.home-title {
+  margin-bottom: 0;
+}
+
+header {
+  background-color: #efefef;
+  margin: 0 auto;
+  padding: 32px 4%;
+}
+@media print, screen and (max-width: 768px) {
+  header{
+    max-width: 100%;
+  }
+}
+
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+@media print, screen and (max-width: 768px) {
+  .container{
+    padding: 0 4vw;
+    max-width: 100%;
+    width: 340px;
+  }
+}
+
+.icon img {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+}
+
+.info {
+  margin-left: 32px;
+}
+@media print, screen and (max-width: 768px) {
+  .info{
+    margin-left: 6px;
+  }
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.info ul li {
+  margin-right: 8px;
+}
+@media print, screen and (max-width: 768px) {
+  .info a{
+    font-size: 14px;
+  }
+}
+
+.works {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media print, screen and (max-width: 768px) {
+  .works{
+    padding: 0 4vw;
+    max-width: 100%;
+    width: 340px;
+  }
+}
+.works > h1 {
+  font-weight: normal;
+  font-size: 36px;
+  color: red;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.works > section {
+  margin-bottom: 60px;
+}
+
+.works > section > h1 {
+  font-weight: normal;
+}
+
+@media print, screen and (max-width: 768px) {
+  .home-title{
+    font-size: 18px;
+  }
+}
+
+.works p {
+  line-height: 1.8;
+}
+
+@media print, screen and (max-width: 768px) {
+  .works p{
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  .works .small{
+    font-size: 12px;
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  .works h2{
+    font-size: 20px;
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  .works img{
+    width: 70%;
+    height: 70%;
+  }
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
+
+.block {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.fiveerras {
+  display: block;
+  margin-top: 50px;
+}
+
+.sp-br {
+  display: none;
+}
+@media print, screen and (max-width: 768px) {
+  .sp-br{
+    display: block;
+  }
+}
+
+footer {
+  padding: 50px 0;
+}
